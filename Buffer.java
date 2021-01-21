@@ -85,9 +85,8 @@ public class Buffer {
         System.out.println(toString());
     }
 /*
-*The DrawLine method does mot produce the exact same line as the sample
 *This is due to the straight line approximation formula Y=mx+c
-* */
+ */
     public  void DrawLine(float x1, float y1, float x2, float y2, char drawChar) {
         float x, y, dx, dy, step;
 
